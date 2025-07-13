@@ -6,9 +6,9 @@
 - Clear completed order: `TriggerEvent("restaurant:order:clear", id)`
 
 ## Możliwe do zmiany wartości
-- [tvPropHash] - Prop hash name
-- [tvPropTxtHash] - Screen texture prop name
-- [tvPropCoords] - Prop coords
+- `tvPropHash` - Prop hash name
+- `tvPropTxtHash` - Screen texture prop name
+- `tvPropCoords` - Prop coords
 
 
 ### [PL]
@@ -18,6 +18,6 @@
 - Usunięcie zamówienia z ukończonych: `TriggerEvent("restaurant:order:clear", id)`
 
 ## Możliwe do zmiany wartości
-- [tvPropHash] - Nazwa hash propa
-- [tvPropTxtHash] - Nazwa tekstury podanego w tvPropHash propa
-- [tvPropCoords] - koordynaty propa
+- `tvPropHash` - Nazwa hash propa
+- `tvPropTxtHash` - Nazwa tekstury podanego w tvPropHash propa
+- `tvPropCoords` - koordynaty propa
