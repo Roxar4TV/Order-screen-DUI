@@ -1,6 +1,5 @@
 ### Order-screen-DUI
-
-[ENG]
+### [ENG]
 ## TriggerEvent
 - Order create: `TriggerEvent("restaurant:order:add")`
 - Order complete: `TriggerEvent("restaurant:order:end", id)`
@@ -12,7 +11,7 @@
 - [tvPropCoords] - Prop coords
 
 
-[PL]
+### [PL]
 ## TriggerEvent
 - Tworzenie zamówienia: `TriggerEvent("restaurant:order:add")`
 - Ukończenie zamówienia: `TriggerEvent("restaurant:order:end", id)`
