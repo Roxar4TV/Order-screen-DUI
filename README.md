@@ -1,9 +1,9 @@
 ### Order-screen-DUI
 ### [ENG]
 ## TriggerEvent
-- `TriggerEvent("restaurant:order:add")` - Order create
-- `TriggerEvent("restaurant:order:end", id)` - Order complete
-- `TriggerEvent("restaurant:order:clear", id)` - Clear completed order
+- `TriggerEvent("orderscreen:order:add")` - Order create
+- `TriggerEvent("orderscreen:order:end", id)` - Order complete
+- `TriggerEvent("orderscreen:order:clear", id)` - Clear completed order
 
 ## Możliwe do zmiany wartości
 - `tvPropHash` - Prop hash name
@@ -13,9 +13,9 @@
 
 ### [PL]
 ## TriggerEvent
-- `TriggerEvent("restaurant:order:add")` - Tworzenie zamówienia
-- `TriggerEvent("restaurant:order:end", id)` - Ukończenie zamówienia
-- `TriggerEvent("restaurant:order:clear", id)` - Usunięcie zamówienia z ukończonych
+- `TriggerEvent("orderscreen:order:add")` - Tworzenie zamówienia
+- `TriggerEvent("orderscreen:order:end", id)` - Ukończenie zamówienia
+- `TriggerEvent("orderscreen:order:clear", id)` - Usunięcie zamówienia z ukończonych
 
 ## Możliwe do zmiany wartości
 - `tvPropHash` - Nazwa hash propa
