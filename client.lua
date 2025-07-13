@@ -20,7 +20,7 @@ local nextOrderId = 1
 function CreateDUI()
     if duiHandle ~= nil then return end
     duiHandle = lib.dui:new({
-        url = ("nui://restaurant_orders/html/ui.html"):format(cache.resource), 
+        url = ("nui://order_screen/html/ui.html"):format(cache.resource), 
         width = 1920, 
         height = 1080,
         debug = false
