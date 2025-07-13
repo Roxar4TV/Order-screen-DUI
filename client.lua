@@ -42,7 +42,7 @@ function CreateTV(x, y, z, heading)
     return prop
 end
 
-RegisterNetEvent("restaurant:order:add", function()
+RegisterNetEvent("orderscreen:order:add", function()
     local order = { id = nextOrderId, text = "Order #" .. tostring(nextOrderId) }
     nextOrderId = nextOrderId + 1
 
@@ -61,7 +61,7 @@ RegisterNetEvent("restaurant:order:add", function()
     end
 end)
 
-RegisterNetEvent("restaurant:order:end", function(id)
+RegisterNetEvent("orderscreen:order:end", function(id)
     if not id then
         ESX.ShowNotification("You must provide the order ID to complete.", "info", 3000) -- ENG
         -- ESX.ShowNotification("Musisz podać ID zamówienia do zakończenia.", "info", 3000) -- PL
@@ -96,7 +96,7 @@ RegisterNetEvent("restaurant:order:end", function(id)
     end
 end)
 
-RegisterNetEvent("restaurant:order:clear", function(id)
+RegisterNetEvent("orderscreen:order:clear", function(id)
     if not id then
         ESX.ShowNotification("You must provide the order ID to delete.", "info", 3000) -- ENG
         -- ESX.ShowNotification("Musisz podać ID zamówienia do usunięcia.", "info", 3000) -- PL
@@ -132,17 +132,17 @@ end)
 
 -- -- Komendy testowe
 -- RegisterCommand("order", function()
---     TriggerEvent("restaurant:order:add")
+--     TriggerEvent("orderscreen:order:add")
 -- end, false)
 
 -- RegisterCommand("orderend", function(source, args)
 --     local id = tonumber(args[1])
---     TriggerEvent("restaurant:order:end", id)
+--     TriggerEvent("orderscreen:order:end", id)
 -- end, false)
 
 -- RegisterCommand("orderclear", function(source, args)
 --     local id = tonumber(args[1])
---     TriggerEvent("restaurant:order:clear", id)
+--     TriggerEvent("orderscreen:order:clear", id)
 -- end, false)
 -- -------------------
 
