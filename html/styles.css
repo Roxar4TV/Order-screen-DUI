@@ -1,0 +1,127 @@
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    overflow: hidden;
+}
+
+.container {
+    display: none;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ordered {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    height: 95%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ordered-p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 5%;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: rgb(51, 44, 112);
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgb(199, 199, 199);
+}
+
+.ordered-list {
+    display: flex;
+    width: 100%;
+    height: 93%;
+    background-color: rgb(22, 20, 48);
+    border-radius: 5px;
+    align-items: flex-start;
+    justify-content: center;
+    box-shadow: inset 0 0 10px rgb(199, 199, 199);
+}
+
+.o-items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    height: auto;
+    gap: 0px 10px;
+}
+
+.o-items p {
+    width: auto;
+    background-color: rgb(156, 124, 19);
+    box-shadow: inset 0 0 10px rgb(255, 238, 0);
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.completed {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    height: 95%;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.completed-p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 5%;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: rgb(51, 44, 112);
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgb(199, 199, 199);
+}
+
+.completed-list {
+    display: flex;
+    width: 100%;
+    height: 93%;
+    background-color: rgb(22, 20, 48);
+    border-radius: 5px;
+    align-items: flex-start;
+    justify-content: center;
+    box-shadow: inset 0 0 10px rgb(199, 199, 199);
+}
+
+.c-items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    height: auto;
+    gap: 0px 10px;
+}
+
+.c-items p {
+    width: auto;
+    background-color: rgb(26, 155, 43);
+    box-shadow: inset 0 0 10px rgb(0, 255, 34);
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
