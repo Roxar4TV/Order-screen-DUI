@@ -1,24 +1,23 @@
-"# Order-screen-DUI" 
+### Order-screen-DUI
+### [ENG]
+## TriggerEvent
+- `TriggerEvent("orderscreen:order:add")` - Order create
+- `TriggerEvent("orderscreen:order:end", id)` - Order complete
+- `TriggerEvent("orderscreen:order:clear", id)` - Clear completed order
 
-[ENG]
-### TriggerEvent
-Order create: `TriggerEvent("restaurant:order:add")`
-Order complete: `TriggerEvent("restaurant:order:end", id)`
-Clear completed order: `TriggerEvent("restaurant:order:clear", id)`
-
-### Możliwe do zmiany wartości
-[tvPropHash] - Prop hash name
-[tvPropTxtHash] - Screen texture prop name
-[tvPropCoords] - Prop coords
+## Możliwe do zmiany wartości
+- `tvPropHash` - Prop hash name
+- `tvPropTxtHash` - Screen texture prop name
+- `tvPropCoords` - Prop coords
 
 
-[PL]
-### TriggerEvent
-Tworzenie zamówienia: `TriggerEvent("restaurant:order:add")`
-Ukończenie zamówienia: `TriggerEvent("restaurant:order:end", id)`
-Usunięcie zamówienia z ukończonych: `TriggerEvent("restaurant:order:clear", id)`
+### [PL]
+## TriggerEvent
+- `TriggerEvent("orderscreen:order:add")` - Tworzenie zamówienia
+- `TriggerEvent("orderscreen:order:end", id)` - Ukończenie zamówienia
+- `TriggerEvent("orderscreen:order:clear", id)` - Usunięcie zamówienia z ukończonych
 
-### Możliwe do zmiany wartości
-[tvPropHash] - Nazwa hash propa
-[tvPropTxtHash] - Nazwa tekstury podanego w tvPropHash propa
-[tvPropCoords] - koordynaty propa
+## Możliwe do zmiany wartości
+- `tvPropHash` - Nazwa hash propa
+- `tvPropTxtHash` - Nazwa tekstury podanego w tvPropHash propa
+- `tvPropCoords` - koordynaty propa
