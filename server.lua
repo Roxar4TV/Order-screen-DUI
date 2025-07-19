@@ -1,3 +1,11 @@
+--[[
+  #######################################
+  # Author: Roxar4TV / Discord: roxar4tv
+  # © 2025 All rights reserved
+  # Unauthorized distribution or resale is prohibited
+  #######################################
+]]
+
 local orders = {}
 local completedOrders = {}
 local nextOrderId = 1

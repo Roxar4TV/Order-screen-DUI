@@ -1,0 +1,15 @@
+Copyright (c) 2025 Roxar4TV
+
+This script was created by Roxar4TV.  
+Unauthorized copying, modification, distribution, or resale of this script is strictly prohibited.  
+
+You are allowed to:
+- Use this script on your own server (if purchased legally).  
+
+You are NOT allowed to:
+- Share this script with third parties.  
+- Remove or modify author credits.  
+- Reverse engineer, decompile, or modify the code for redistribution.  
+
+For support or licensing questions, contact:  
+Discord: roxar4tv
