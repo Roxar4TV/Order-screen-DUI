@@ -1,8 +1,10 @@
 --[[
   #######################################
   # Author: Roxar4TV / Discord: roxar4tv
-  # © 2025 All rights reserved
-  # Unauthorized distribution or resale is prohibited
+  # License: GNU GPL v3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
+  # © 2025 Roxar4TV
+  # This is free software: you can redistribute it and/or modify
+  # it under the terms of the GNU General Public License v3.
   #######################################
 ]]
 

@@ -42,13 +42,14 @@ This script allows you to create, complete, and clear orders displayed on a scre
 
 ---
 
-## ⚠️ License
-© 2025 Roxar4TV – All rights reserved.  
+## 📝 License
+This project is licensed under the **GNU General Public License v3.0**.  
 
-You are **NOT allowed** to:  
-❌ Share, resell, or redistribute this script.  
-❌ Remove or modify author credits.  
-❌ Reverse engineer or decompile the code.  
+You are free to:
+- Use, share, and modify this script.  
+- Distribute modified versions under the same license.   
 
-For support or licensing questions, contact:  
-💬 Discord: roxar4tv
+For details, see: [https://www.gnu.org/licenses/gpl-3.0.en.html](https://www.gnu.org/licenses/gpl-3.0.en.html)
+
+Author: **Roxar4TV**  
+Discord: **roxar4tv**
